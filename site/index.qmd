@@ -1,7 +1,7 @@
 ---
 ---
 
-## Talks about the template project
+## Talks about The future of (open) human neuroscience
 
 [Current version of talk](talk/)
 

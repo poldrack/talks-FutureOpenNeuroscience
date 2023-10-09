@@ -1,5 +1,5 @@
 ---
-title: "Talk template" 
+title: "The future of (open) human neuroscience" 
 author: Russ Poldrack
 institute: Stanford University
 title-slide-attributes:
@@ -7,7 +7,7 @@ title-slide-attributes:
     data-background-opacity: "0.5"
 format:
   revealjs: 
-    footer: "https://poldrack.github.io/talks-template/"
+    footer: "http://poldrack.github.io/talks-FutureOpenNeuroscience"
     slide-number: true
     chalkboard: 
       buttons: false
@@ -17,4 +17,670 @@ format:
     width: 1920
 ---
 
-## Template slide
+
+
+## {data-background-image="images/russome.jpg" data-background-opacity=".25"}
+
+<!--
+As shown in the talks at this meeting, the field of human neuroscience has amassed an impressive set of open source tools and datasets. I will reflect on the development of this open science ecosystem, touching particularly on the ways in which its intersection with the Python open source ecosystem have accelerated progress and centered openness. I will then turn to the future of this ecosystem, with a particular focus on both the possibilities and the risks of increasingly powerful AI tools for the reproducibility and transparency of research in the near future.
+
+-->
+
+::: {.absolute top=20% left=10% style="font-size: 2.5em; text-align: center;"}
+Why have I spent the last decade of my career trying to make neuroscience more open and reproducible?
+:::
+
+
+## My first faculty position: MGH-NMR Center, 1999
+
+::::{.columns}
+:::{.column width="60%"}
+- Median sample size for neuroimaging studies in 1999 was N = 8 (David et al.)
+  - Poldrack RA et al. (1998), *Cerebral Cortex*
+    - N = 6
+  - Poldrack RA et al.(1999), *Neuropsychology*
+    - N = 8
+  - Poldrack RA et al (1999), *NeuroImage*
+    - N = 8
+  - Klingberg T, ..., Poldrack RA (2000), *Neuron*
+    - N = 6 poor readers, 11 controls
+  - Temple E, Poldrack RA et al. (2000), *PNAS*
+    - N = 8 dyslexics, 10 controls
+:::
+::::
+
+![](./images/mgh_id.png){.absolute top="20%" left="70%" height="60%"}
+
+
+## Small-sample correlations
+
+![](./images/klingberg_correlation.png){.absolute top="10%" left="20%" height="75%"}
+
+::: {.absolute top=85% left=0}
+Klingberg et al, 2000, *Neuron*
+:::
+
+
+## Small-sample group comparisons
+
+::::{.columns}
+:::{.column width="60%"}
+- Temple, Poldrack et al., 2000, *PNAS*
+  - N = 8 dyslexics, 10 controls
+  - "Voxels were considered statistically significant at an uncorrected P < 0.005."
+  - Figure caption: "fMRI response to rapid auditory stimuli in normal and dyslexic readers (P < 0.025)."
+:::
+::::
+
+![](./images/temple_groupdiff.png){.absolute top="10%" left="65%" height="80%"}
+
+
+## {data-background-image="images/russome.jpg" data-background-opacity=".25"}
+
+::: {.absolute top=30% left=0% style="font-size: 2.5em; text-align: center;"}
+Questionable research practices in neuroimaging led to a series of credibility crises
+:::
+
+## 2008: Voodoo correlations and circularity
+
+![](./images/vul_title.png){.absolute top="10%" left="0%" width="60%"}
+
+![](./images/vul_subtitle.png){.absolute top="60%" left="0%" width="60%"}
+
+![](./images/vul_reliability_explanation.png){.absolute top="70%" left="0%" width="60%"}
+
+![](./images/vul_correlation.jpeg){.absolute top="10%" left="60%" width="40%"}
+
+
+## Voodoo correlations in our work
+
+![](./images/Tom_correlation.png){.absolute top="10%" left="5%" width="40%"}
+
+::: {.absolute top=85% left=0}
+Tom et al, 2007, *Science*
+:::
+
+
+## Voodoo correlations in our work
+
+![](./images/Tom_correlation.png){.absolute top="10%" left="5%" width="40%"}
+
+::: {.absolute top=85% left=0}
+Tom et al, 2007, *Science*
+:::
+
+![](./images/where_is_voodoo_title.png){.absolute top="20%" left="50%" width="50%"}
+
+::: {.absolute top=85% left=50%}
+Poldrack & Mumford, 2009, *SCAN*
+:::
+
+
+
+## 2022: Circularity 2.0: Machine learning edition
+
+![](./images/nih_headline_suicide.png){.absolute top="10%" left="00%" height="80%"}
+
+##
+
+![](./images/nih_headline_suicide.png){.absolute top="10%" left="00%" height="80%"}
+
+![](./images/suicide_pattern.png){.absolute top="30%" left="50%" height="60%"}
+
+##
+
+![](./images/cmu_press_release.png){.absolute top="00%" left="20%" height="90%"}
+
+##
+
+![](./images/just_retraction.png){.absolute top="00%" left="0%" width="100%"}
+
+
+## 2013: Power failure
+
+![](images/button_title.png){.absolute top="10%" left="0%" width="40%"}
+![](images/button_journal.png){.absolute top="35%" left="5%" width="30%"}
+![](images/button_figure.png){.absolute top="45%" left="0%" width="45%"}
+
+
+![](images/dumas_title.png){.absolute top="10%" left="55%" height="35%"}
+![](images/dumas_figure.png){.absolute top="50%" left="50%" height="50%"}
+
+
+## Low power -> unreliable science
+
+:::: {.columns}
+::: {.column width="50%"}
+Positive Predictive Value (PPV): The probability that a positive result is true
+:::
+::: {.column width="50%"}
+Winner’s Curse: overestimation of effect sizes for significant results
+:::
+::::
+![](images/ppv_formula.png){.absolute top="20%" left="00%" width="50%"}
+
+![](images/ppv_by_power.png){.absolute top="35%" left="00%" width="40%"}
+
+![](images/winners_curse.png){.absolute top="30%" left="50%" width="40%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Button et al, 2013
+:::
+
+## Small samples = high instability of statistical estimates
+
+![](images/schonbrodt.png){.absolute top="15%" left="18%" height="70%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Schonbrodt & Perugini, 2013
+:::
+
+
+## 
+
+![](images/marek.png){.absolute top="0%" left="17%" height="85%"}
+
+::: {.absolute top=90% left=38% style="text-align: center;"}
+Marek et al., 2022
+:::
+
+
+
+
+## 2012: Effects of analytic variability
+
+
+![](images/carp_variability_title.png){.absolute top="10%" left="0%" height="25%"}
+![](images/carp_variability_result.png){.absolute top="40%" left="5%" width="85%"}
+
+
+
+## What is the effect of analytic variability in the wild?
+
+![](images/narps_outcomes.png){.absolute top="10%" left="50%" width="50%"}
+
+:::: {.columns}
+::: {.column width="45%"}
+- 70 teams tested 9 hypotheses using the same dataset
+- No 2 team used the same workflow
+- Across teams there were 33 different patterns of outcomes
+- For any hypothesis, there are at least 4 workflows that can give a positive result
+:::
+::::
+
+
+::: {.absolute top=85% width="100%" style="text-align: center;"}
+Botvinik-Nezer et al., 2020, *Nature*
+:::
+
+
+
+## {data-background-image="images/russome.jpg" data-background-opacity=".25"}
+
+::: {.absolute top=20% left=0% style="font-size: 2.5em; text-align: center;"}
+These crises have inspired a credibility revolution in neuroimaging over the last decade, strongly focused on open science practices.
+:::
+
+
+##
+
+<div style="text-align: center;font-size: 2.5em;fig-align: center">
+Transparency is essential for reproducibility
+</div>
+
+
+![](./images/turingway_reproduducibilty.png){.absolute top="30%" left="15%" height="60%"}
+
+
+:::{.absolute top="95%" left="30%" height="80%"}
+<div style='font-size: 0.5em'>https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html</div>
+:::
+
+##
+
+::::{.columns}
+::: {.column width="60%"}
+<div style="text-align: center;font-size: 1.4em;">
+"we can distill Claerbout's insight into a slogan:
+
+An article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures.."  
+
+- Buckheit & Donoho, 1995 
+</div>
+:::
+::: {.column width="40%"}
+<div style="text-align: center;fig-align: center; font-size: 1.5em;">
+![](./images/claerbout.png)
+
+Jon Claerbout
+</div>
+:::
+::::
+
+
+
+
+## Seeds of openness: Open source software
+
+- All of the major neuroimaging analysis packages are open source
+  - SPM (1991)
+    - Enabled my first open source contribution: the SPM ROI toolbox (2000)
+  - AFNI (1994)
+  - Freesurfer (1999)
+  - FSL (2000)
+
+
+## Seeds of openness:  A common file format
+
+![](./images/nifti_hbm-1.png)
+
+::: {.absolute top=85% left=40%}
+Cox et al., OHBM, 2004
+:::
+
+
+## Seeds of openness: fMRI data sharing
+
+![](./images/OpenEcosystem_Feb202213.png)
+
+
+## A false start for fMRI data sharing
+:::: {.columns}
+
+::: {.column width="50%"}
+![](./images/OpenEcosystem_Feb202215.png){.absolute top=10% left=0, height=25%}
+
+![](./images/OpenEcosystem_Feb202216.png){.absolute top=50% left=0, height=17%}
+:::
+
+::: {.column width="50%"}
+This letter comes from a group of scientists who are publishing papers using fMRI to understand the links between brain and behavior\. We are writing in reaction the recent announcement of the creation of the National fMRI Data Center \(www\.fmridc\.org\)\. In the letter announcing the creation of the center\, it was also implied that leading journals in our field may require authors of all fMRI related papers accepted for publication to submit all experimental data pertaining to their paper to the Data Center\.
+…
+We are particularly concerned with any journal's decision to require all authors of all fMRI related papers accepted for publication to submit all experimental data pertaining to their paper to the Data Center\.
+:::
+::::
+
+
+## 2010: The year data sharing broke in neuroimaging
+
+![](./images/biswal_title.png)
+![](./images/biswal_date.png)
+
+- "Comprehensive mapping of the functional connectome, and its subsequent exploitation to discern geneticinfluences and brain–behavior relationships, will require multicenter collaborative datasets. Here we initiate this endeavor by gathering R-fMRI data from 1,414 volunteers collected independently at 35 international centers. We demonstrate a universal architecture of positive and negative functional connections, as well as consistent loci of inter-individual variability. ..."
+
+
+## Data sharing is becoming the norm in neuroimaging
+
+![](images/OpenEcosystem_Feb202217.png){.absolute top=10% left=0, height=50%}
+
+
+::: {.absolute top=60% left=5% width=50% style="font-size: 0.8em;"}
+Poldrack et al., *Annual Reviews in Biomedical Data Science*, 2019
+:::
+
+
+![](images/milham_opendatapubs.png){.absolute top=10% left=60% height=50%}
+
+::: {.absolute top=60% left=65% width=40% style="font-size: 0.8em;"}
+<div style='font-size: 0.7em' >
+Milham et al., *Nature Communications*, 2018
+</div>
+:::
+
+
+::: {.absolute top=75% left=0}
+<div style='font-size: 1.2em' >
+Anonymous senior researcher circa 2019:
+
+“OHBM has been taken over by the open science zealots\!”
+</div>
+:::
+
+
+## An open ecosystem for retrospective data sharing
+
+:::: {.columns}
+::: {.column width="70%"}
+![](images/ecosystem_fig.png)
+:::
+::: {.column width="30%"}
+<div style='font-size: 1.2em' >
+- Neurosynth.org: Open database of published neuroimaging coordinates
+- Neurovault.org: Open archive for neuroimaging results
+- OpenNeuro.org: Open archive for raw/processed neuroimaging data
+</div>
+:::
+::::
+
+
+## Neurosynth: Sharing activation coordinates
+
+- Brain activity is reported in a (somewhat) standardized coordinate system
+
+![](./images/mnicoords.png)
+
+![](./images/brain_xyz.png){.absolute top=0 left=80% height=25%}
+
+
+## 
+
+:::: {.columns}
+::: {.column width="30%"}
+- Neurosynth uses publised coordinates to create meta-analytic maps relating terms (from abstract) to activation
+:::
+::::
+
+![](./images/neurosynth_wm.png){.absolute top=0 left=35% height=90%}
+
+::: {.absolute top=85% left=0}
+Yarkoni et al, 2011, *Nature Methods*
+:::
+
+
+
+## Example of Neurosynth usage
+
+![](./images/margulies_title.png){.absolute top=0% left=0%}
+![](./images/margulies_date.png)
+
+:::: {.columns}
+::: {.column width="50%"}
+![](./images/margulies_fig4.png)
+:::
+::: {.column width="50%"}
+<div style="font-size: 1.2em;">
+-
+-
+- Identified gradients of functional organization across the cortex
+- Used Neurosynth to identify the most common terms associated with each gradient
+</div>
+:::
+::::
+
+
+
+## Neurovault: Sharing neuroimaging results
+:::: {.columns}
+::: {.column width="30%"}
+- The results of most neuroimaging studies are images with statistical estimates at each voxel
+- Neurovault.org is an open archive for these results
+- Each image receives a persistent identifier for sharing
+:::
+::: {.column width="70%"}
+![](./images/neurovault_collection.png){.absolute height=90%}
+:::
+::::
+
+::: {.absolute top=85% left=0 style="font-size: 0.8em;"}
+Gorgolewski et al., 2015, *Frontiers in Neuroinformatics*
+:::
+
+
+## Example of Neurovault usage
+
+![](./images/menuet_title.png){.absolute height=20% top=10%}
+
+![](./images/menuet_date.png){.absolute left=0% top=30% height=10%%}
+
+
+![](./images/menuet_fig1.png){.absolute left=0% top=45% height=40%}
+
+![](./images/menuet_fig3.png){.absolute left=50% top=40% height=50%}
+
+
+## OpenNeuro: Sharing raw and processed neuroimaging data
+
+![](./images/openeuro_landing.png){.absolute top=10% left=15% height=80%}
+
+::: {.absolute top=85% left=0}
+Markiewicz et al, 2021, *eLife*
+:::
+
+
+
+## It's easy to share data badly
+:::: {.columns}
+::: {.column width="50%"}
+
+Data Sharing and Management Snafu in 3 Short Acts
+
+
+![](./images/sharing_snafu.png){.absolute height=45%}
+
+::: {.absolute top=70% left=5%}
+<div style='font-size: 0.7em'>https://www.youtube.com/watch?v=N2zK3sAtr-4</div>
+:::
+
+
+:::
+::: {.column width="50%"}
+<div style='font-size: 1.2em'>
+- I received the data, but when I opened it up it was in hexadecimal
+- Yes, that is right
+- I cannot read hexadecimal
+- You asked for my data and I gave it to you.  I have done what you asked.
+
+…
+
+- Is there a guide to the data anywhere?
+- Yes, of course, it is the article that is published in Science.
+</div>
+:::
+::::
+
+
+## Brain Imaging Data Structure (BIDS)
+<div style='font-size: 1.2em'>
+- A community-based open standard for neuroimaging data
+  - A file organization standard
+  - A metadata standard
+- Available for MRI, PET, EEG, iEEG, fNIRS
+</div>
+![](./images/bids_scidata.png){.absolute top=45% left=0% height=35%}
+![](./images/dicom_to_bids.png){.absolute top=40% left=45% height=50%}
+
+
+## The growing usage of BIDS: An example
+
+:::: {.columns}
+::: {.column width="50%"}
+<div style='font-size: 1.2em'>
+- MRIQC Web API
+  - Crowdsourced database of MR QC metrics
+  - QC metrics from ~450K unique BOLD scans and ~350K T1w scans as of June 2023
+  - Publicly available:
+https://mriqc.nimh.nih.gov/
+</div>
+:::
+::: {.column width="50%"}
+
+:::
+::::
+![](./images/mriqc_webapi_title.png){.absolute top=10% left=50% height=25%}
+
+![](./images/mriqc_api_growth.png){.absolute top=40% left=50% height=50%}
+
+
+
+## BIDS has enabled consistent growth of OpenNeuro
+
+![](./images/combined_growth.png){.absolute top="10%" left="5%" height="80%"}
+
+::: {.absolute top=85% left=0}
+updated from Markiewicz et al, 2021, *eLife*
+:::
+
+
+
+## An open-source Pythonic software ecosystem
+
+![](https://www.nipreps.org/assets/nipreps-chart.png){.absolute top=10% left=15% height=75%}
+
+
+##
+
+![](./images/scipy_timeline.png){.absolute top="0%" left="0%" width="100%"}
+
+
+## fMRIprep: Robust preprocessing of fMRI data
+
+![](./images/fmriprep/fmriprep.jpg){.absolute top=10% left=15% height=80%}
+
+:::{.absolute top=85% style='font-size: 1.2em;'}
+fmriprep.org; Esteban et al, 2019
+:::
+
+
+## MRIQC: MRI quality control for BIDS data
+
+![](https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0184661.g005){.absolute top=10% left=25% height=80%}
+
+:::{.absolute top=85% style='font-size: 1.2em;'}
+mriqc.org; Esteban et al, 2017
+:::
+
+## TemplateFlow: FAIR sharing of neuroimaging templates and atlases
+
+:::: {.columns}
+
+::: {.column width="50%"}
+- Templates and atlases are commonly used in neuroimaging research
+- There is significant lack of clarity in the use of these templates
+    - There are numerous versions of the widely used “MNI template”
+- Templateflow provides programmatic access to a database of templates and mappings between them
+
+- Easy to use for humans and machines:
+
+![](images/templateflow_cli.jpg)
+:::
+
+::: {.column width="50%"}
+![](images/templateflow_fig-templates.png)
+Ciric et al., 2022, *Nature Methods*
+:::
+::::
+
+
+
+## Threats to open neuroscience
+<div style="font-size: 1.5em">
+- Open science has gained a strong foothold in neuroimaging
+- But there are a number of threats to its success
+</div>
+
+## Performative open science
+:::: {.columns}
+::: {.column width="80%"}
+<div style="font-size: 1.3em">
+- Data are often shared badly
+  - Of papers in *Psychological Science* with an open data badge, only 76% had usable data (Kidwell et al, 2016)
+  - Reported statistics were only reproducible without involvement of the original authors in 36% of papers (Hardwicke et al, 2021)
+- Shared analysis code is rarely usable without substantial modification
+  - Common problems including missing files and hardcoded paths
+- Goodhart's law: "When a measure becomes a target, it ceases to be a good measure."
+</div>
+:::
+::::
+
+![](./images/Open-Data-OSB.png){.absolute top=10% left=80% width=18%}
+
+
+## Incentives for open science
+
+:::: {.columns}
+::: {.column width="50%"}
+- Current incentive structures incentivize irreproducible practices
+  - Publication in high-profile journals
+  - Data hoarding
+- In the US, a large group of universities is working together to change this
+  - Higher Education Leadership Initiative for Open Scholarship (HELIOS)
+  - Working to reform hiring, tenure, and promotion practices to reflect the importance of open scholarship
+:::
+::::
+
+![](./images/logo_helios_RGB.png){.absolute top=10% left=55% width=40%}
+
+
+## Dataset decay
+
+![](./images/dataset_decay_title.png){.absolute top=10% left=15% width=70%}
+
+## Dataset decay example
+
+:::: {.columns}
+::: {.column width="50%"}
+<div style="font-size: 1.2em">
+- 182 behavioral measures and 68 cortical thickness measures (12,376 total tests)
+- Correcting for all tests simultaneously controls false positive/discovery rate
+- If each behavioral measure was tested by a different researcher in a different paper (correcting only for the 68 thickness measures), then the false positive rate is highly inflated
+</div>
+:::
+::::
+
+![](./images/dataset_decay_hcp.png){.absolute top=20% left=55% width=40%}
+
+:::{.absolute top=85% style='font-size: 1.2em;'}
+Thompson et al, 2020
+:::
+
+## AI: Negative impacts
+<div style="font-size: 1.5em">
+- Used recklessly, machine learning methods can easily go wrong
+</div>
+
+![](./images/kapoor_title.png){.absolute top=30% left=0% height=25%}
+
+:::{.absolute top=65% style='font-size: 1.5em;'}
+"We surveyed a variety of research
+that uses ML and found that data leakage affects at least 294 studies across 17 fields, leading to overoptimistic findings."
+:::
+
+##
+
+![](./images/reforms_title.png){.absolute top=0% left=0% height=40%}
+
+:::{.absolute top=65% left=15% style='font-size: 1.5em;'}
+Checklist at https://reforms.cs.princeton.edu/
+:::
+
+## AI: Negative impacts
+
+:::: {.columns}
+::: {.column width="50%"}
+<div style="font-size: 1.3em;">
+- AI face recognition models could defeat current deidentification methods
+  - "For 70 of the 84 participants (83%), the software chose the correct MRI scan as the most likely match for their photos. The correct MRI scan was among the top five choices for 80 of 84 participants (95%)." (Schwartz et al., 2019)
+</div>
+:::
+::::
+
+![](./images/schwartz_nejmc1908881_f1.jpeg){.absolute top=0% left=55% height=90%}
+
+
+
+## AI: Positive impacts
+
+![](./images/thomas_foundation_models.png){.absolute top=20% left=0% width=55%}
+
+![](./images/classification_acc_HCP.png){.absolute top=25% left=60% width=35%}
+
+:::{.absolute top=10% left=55% style='text-align: center;font-size: 1.2em;'}
+Foundation models can improve decoding from small samples
+:::
+
+:::{.absolute top=85% style='font-size: 1.2em;'}
+Thomas et al., NeurIPS 2022
+:::
+
+
+
+## Conclusions
+<div style='font-size: 1.3em'>
+- The field of neuroimaging endured a number of crises that inspired a credibility revolution
+- An impressive Pythonic open source ecosystem has emerged in our field
+- We need to be aware of both opportunities and threats to the future of open neuroscience
+</div>
+
+##
+
+![](./images/poldracklab_acknowledgments.png){.absolute top=0% left=0% width=100%}

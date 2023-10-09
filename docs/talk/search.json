@@ -1,9 +1,646 @@
 [
   {
-    "objectID": "talk.html#template-slide",
-    "href": "talk.html#template-slide",
-    "title": "Talk template",
-    "section": "Template slide",
-    "text": "Template slide\n\n\nhttps://poldrack.github.io/talks-template/"
+    "objectID": "talk.html#section",
+    "href": "talk.html#section",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Why have I spent the last decade of my career trying to make neuroscience more open and reproducible?"
+  },
+  {
+    "objectID": "talk.html#is-neuroimaging-research-credible",
+    "href": "talk.html#is-neuroimaging-research-credible",
+    "title": "The future of (open) human neuroscience",
+    "section": "Is neuroimaging research credible?",
+    "text": "Is neuroimaging research credible?"
+  },
+  {
+    "objectID": "talk.html#is-neuroimaging-research-credible-1",
+    "href": "talk.html#is-neuroimaging-research-credible-1",
+    "title": "The future of (open) human neuroscience",
+    "section": "Is neuroimaging research credible?",
+    "text": "Is neuroimaging research credible?"
+  },
+  {
+    "objectID": "talk.html#is-neuroimaging-research-credible-2",
+    "href": "talk.html#is-neuroimaging-research-credible-2",
+    "title": "The future of (open) human neuroscience",
+    "section": "Is neuroimaging research credible?",
+    "text": "Is neuroimaging research credible?"
+  },
+  {
+    "objectID": "talk.html#is-neuroimaging-research-credible-3",
+    "href": "talk.html#is-neuroimaging-research-credible-3",
+    "title": "The future of (open) human neuroscience",
+    "section": "Is neuroimaging research credible?",
+    "text": "Is neuroimaging research credible?"
+  },
+  {
+    "objectID": "talk.html#section-1",
+    "href": "talk.html#section-1",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Questionable research practices in neuroimaging led to a series of credibility crises"
+  },
+  {
+    "objectID": "talk.html#why-neuroimaging-is-a-best-case-scenario-for-open-science",
+    "href": "talk.html#why-neuroimaging-is-a-best-case-scenario-for-open-science",
+    "title": "The future of (open) human neuroscience",
+    "section": "Why neuroimaging is a best-case scenario for open science",
+    "text": "Why neuroimaging is a best-case scenario for open science\n\n\n\n\nMagnetic resonance imaging (MRI) is the primary tool for studying human brain structure and function\nMRI data are digital end-to-end\n\nFrom MRI scanner to automated analysis\nUsually zero/few manual analysis steps\n\nThe field has largely converged on:\n\na standardized image format (NiFTI)\na ~common spatial coordinate system"
+  },
+  {
+    "objectID": "talk.html#a-false-start-for-fmri-data-sharing",
+    "href": "talk.html#a-false-start-for-fmri-data-sharing",
+    "title": "The future of (open) human neuroscience",
+    "section": "A false start for fMRI data sharing",
+    "text": "A false start for fMRI data sharing\n\n\n\n\n\nThis letter comes from a group of scientists who are publishing papers using fMRI to understand the links between brain and behavior. We are writing in reaction the recent announcement of the creation of the National fMRI Data Center (www.fmridc.org). In the letter announcing the creation of the center, it was also implied that leading journals in our field may require authors of all fMRI related papers accepted for publication to submit all experimental data pertaining to their paper to the Data Center. … We are particularly concerned with any journal’s decision to require all authors of all fMRI related papers accepted for publication to submit all experimental data pertaining to their paper to the Data Center."
+  },
+  {
+    "objectID": "talk.html#a-false-start-for-fmri-data-sharing-1",
+    "href": "talk.html#a-false-start-for-fmri-data-sharing-1",
+    "title": "The future of (open) human neuroscience",
+    "section": "A false start for fMRI data sharing",
+    "text": "A false start for fMRI data sharing\n\n\n\n\n\nThis letter comes from a group of scientists who are publishing papers using fMRI to understand the links between brain and behavior. We are writing in reaction the recent announcement of the creation of the National fMRI Data Center (www.fmridc.org). In the letter announcing the creation of the center, it was also implied that leading journals in our field may require authors of all fMRI related papers accepted for publication to submit all experimental data pertaining to their paper to the Data Center. … We are particularly concerned with any journal’s decision to require all authors of all fMRI related papers accepted for publication to submit all experimental data pertaining to their paper to the Data Center."
+  },
+  {
+    "objectID": "talk.html#the-year-data-sharing-broke-in-neuroimaging",
+    "href": "talk.html#the-year-data-sharing-broke-in-neuroimaging",
+    "title": "The future of (open) human neuroscience",
+    "section": "2010: The year data sharing broke in neuroimaging",
+    "text": "2010: The year data sharing broke in neuroimaging\n \n\n“Comprehensive mapping of the functional connectome, and its subsequent exploitation to discern geneticinfluences and brain–behavior relationships, will require multicenter collaborative datasets. Here we initiate this endeavor by gathering R-fMRI data from 1,414 volunteers collected independently at 35 international centers. We demonstrate a universal architecture of positive and negative functional connections, as well as consistent loci of inter-individual variability. …”"
+  },
+  {
+    "objectID": "talk.html#data-sharing-is-becoming-the-norm-in-neuroimaging",
+    "href": "talk.html#data-sharing-is-becoming-the-norm-in-neuroimaging",
+    "title": "The future of (open) human neuroscience",
+    "section": "Data sharing is becoming the norm in neuroimaging",
+    "text": "Data sharing is becoming the norm in neuroimaging\n\n\nPoldrack et al., Annual Reviews in Biomedical Data Science, 2019\n\n\n\n\nMilham et al., Nature Communications, 2018\n\n\n\n\nAnonymous senior researcher circa 2019:\n“OHBM has been taken over by the open science zealots!”"
+  },
+  {
+    "objectID": "talk.html#an-open-ecosystem-for-retrospective-data-sharing",
+    "href": "talk.html#an-open-ecosystem-for-retrospective-data-sharing",
+    "title": "The future of (open) human neuroscience",
+    "section": "An open ecosystem for retrospective data sharing",
+    "text": "An open ecosystem for retrospective data sharing\n\n\n\n\n\n\nNeurosynth.org: Open database of published neuroimaging coordinates\nNeurovault.org: Open archive for neuroimaging results\nOpenNeuro.org: Open archive for raw/processed neuroimaging data"
+  },
+  {
+    "objectID": "talk.html#neurosynth-sharing-activation-coordinates",
+    "href": "talk.html#neurosynth-sharing-activation-coordinates",
+    "title": "The future of (open) human neuroscience",
+    "section": "Neurosynth: Sharing activation coordinates",
+    "text": "Neurosynth: Sharing activation coordinates\n\nBrain activity is reported in a (somewhat) standardized coordinate system"
+  },
+  {
+    "objectID": "talk.html#section-2",
+    "href": "talk.html#section-2",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "These crises have inspired a credibility revolution in neuroimaging over the last decade, strongly focused on open science practices."
+  },
+  {
+    "objectID": "talk.html#section-3",
+    "href": "talk.html#section-3",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Transparency is essential for reproducibility\n\n\n\n\nhttps://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html"
+  },
+  {
+    "objectID": "talk.html#section-4",
+    "href": "talk.html#section-4",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "“we can distill Claerbout’s insight into a slogan:\nAn article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures..”\n\nBuckheit & Donoho, 1995\n\n\n\n\n\nJon Claerbout"
+  },
+  {
+    "objectID": "talk.html#neurovault-sharing-neuroimaging-results",
+    "href": "talk.html#neurovault-sharing-neuroimaging-results",
+    "title": "The future of (open) human neuroscience",
+    "section": "Neurovault: Sharing neuroimaging results",
+    "text": "Neurovault: Sharing neuroimaging results\n\n\n\nThe results of most neuroimaging studies are images with statistical estimates at each voxel\nNeurovault.org is an open archive for these results\nEach image receives a persistent identifier for sharing\n\n\n\n\n\n\nGorgolewski et al., 2015, Frontiers in Neuroinformatics"
+  },
+  {
+    "objectID": "talk.html#openneuro-sharing-raw-and-processed-neuroimaging-data",
+    "href": "talk.html#openneuro-sharing-raw-and-processed-neuroimaging-data",
+    "title": "The future of (open) human neuroscience",
+    "section": "OpenNeuro: Sharing raw and processed neuroimaging data",
+    "text": "OpenNeuro: Sharing raw and processed neuroimaging data\n\n\nMarkiewicz et al, 2021, eLife"
+  },
+  {
+    "objectID": "talk.html#section-5",
+    "href": "talk.html#section-5",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Marek et al., 2022"
+  },
+  {
+    "objectID": "talk.html#section-6",
+    "href": "talk.html#section-6",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "These crises have inspired a credibility revolution in neuroimaging over the last decade, strongly focused on open science practices."
+  },
+  {
+    "objectID": "talk.html#brain-imaging-data-structure-bids",
+    "href": "talk.html#brain-imaging-data-structure-bids",
+    "title": "The future of (open) human neuroscience",
+    "section": "Brain Imaging Data Structure (BIDS)",
+    "text": "Brain Imaging Data Structure (BIDS)\n\n\nA community-based open standard for neuroimaging data\n\nA file organization standard\nA metadata standard\n\nAvailable for MRI, PET, EEG, iEEG, fNIRS"
+  },
+  {
+    "objectID": "talk.html#bids-has-enabled-consistent-growth-of-openneuro",
+    "href": "talk.html#bids-has-enabled-consistent-growth-of-openneuro",
+    "title": "The future of (open) human neuroscience",
+    "section": "BIDS has enabled consistent growth of OpenNeuro",
+    "text": "BIDS has enabled consistent growth of OpenNeuro\n\n\nupdated from Markiewicz et al, 2021, eLife"
+  },
+  {
+    "objectID": "talk.html#the-diversity-of-openneuro-datasets",
+    "href": "talk.html#the-diversity-of-openneuro-datasets",
+    "title": "The future of (open) human neuroscience",
+    "section": "The diversity of OpenNeuro datasets",
+    "text": "The diversity of OpenNeuro datasets\n\n\n\n\n\n\n\nDatatype\n#\n\n\n\n\nmri - anat\n597\n\n\nmri - func\n521\n\n\neeg\n120\n\n\nmri - dwi\n67\n\n\nmeg\n30\n\n\nieeg\n17\n\n\nbeh\n13\n\n\npet\n11\n\n\n\n\n\n\n\nSpecies\n#\n\n\n\n\nHuman\n676\n\n\nMouse\n20\n\n\nRat\n12\n\n\nNHP\n2\n\n\nphantoms\n1\n\n\nJuvenile pigs\n1\n\n\nHuman, Mouse\n1\n\n\nDog\n1\n\n\nMonkey\n1\n\n\nSheep\n1\n\n\n\n\n\n\nupdated from Markiewicz et al, 2021, eLife"
+  },
+  {
+    "objectID": "talk.html#bids-enables-a-growing-open-source-pythonic-software-ecosystem",
+    "href": "talk.html#bids-enables-a-growing-open-source-pythonic-software-ecosystem",
+    "title": "The future of (open) human neuroscience",
+    "section": "BIDS enables a growing open-source (Pythonic) software ecosystem",
+    "text": "BIDS enables a growing open-source (Pythonic) software ecosystem"
+  },
+  {
+    "objectID": "talk.html#fmriprep-robust-preprocessing-of-fmri-data",
+    "href": "talk.html#fmriprep-robust-preprocessing-of-fmri-data",
+    "title": "The future of (open) human neuroscience",
+    "section": "fMRIprep: Robust preprocessing of fMRI data",
+    "text": "fMRIprep: Robust preprocessing of fMRI data\n\n\nfmriprep.org; Esteban et al, 2019"
+  },
+  {
+    "objectID": "talk.html#mriqc-mri-quality-control-for-bids-data",
+    "href": "talk.html#mriqc-mri-quality-control-for-bids-data",
+    "title": "The future of (open) human neuroscience",
+    "section": "MRIQC: MRI quality control for BIDS data",
+    "text": "MRIQC: MRI quality control for BIDS data\n\n\nmriqc.org; Esteban et al, 2017"
+  },
+  {
+    "objectID": "talk.html#keys-to-success-in-neuroimaging-data-sharing",
+    "href": "talk.html#keys-to-success-in-neuroimaging-data-sharing",
+    "title": "The future of (open) human neuroscience",
+    "section": "Keys to success in neuroimaging data sharing",
+    "text": "Keys to success in neuroimaging data sharing\n\n\nData are digital end-to-end\n\nMinimizes manual steps in the process\n\nStandardized file formats and data standards"
+  },
+  {
+    "objectID": "talk.html#keys-to-success-in-neuroimaging-data-sharing-1",
+    "href": "talk.html#keys-to-success-in-neuroimaging-data-sharing-1",
+    "title": "The future of (open) human neuroscience",
+    "section": "Keys to success in neuroimaging data sharing",
+    "text": "Keys to success in neuroimaging data sharing\n\n\nNumerous scientific success stories"
+  },
+  {
+    "objectID": "talk.html#lessons-learned",
+    "href": "talk.html#lessons-learned",
+    "title": "The future of (open) human neuroscience",
+    "section": "Lessons learned",
+    "text": "Lessons learned\n\n\n\n\nCommunity buy-in is essential\n\nMandates put in place before the community is ready can backfire\n\nUnless they have overwhelmingly powerful advocates, as in genomics\n\nImportant that sharing advocates are members of community and eat their own dog food"
+  },
+  {
+    "objectID": "talk.html#lessons-learned-1",
+    "href": "talk.html#lessons-learned-1",
+    "title": "The future of (open) human neuroscience",
+    "section": "Lessons learned",
+    "text": "Lessons learned\n\n\n\n\nDon’t let the perfect be the enemy of the good\n\n20% of the effort will cover 80% of the datasets - focus on these!\nThere is a long tail of edge cases with loud advocates\n\n\n\n\n\n\n\n\nVilfredo Pareto"
+  },
+  {
+    "objectID": "talk.html#conclusions",
+    "href": "talk.html#conclusions",
+    "title": "The future of (open) human neuroscience",
+    "section": "Conclusions",
+    "text": "Conclusions\n\n\nThe field of neuroimaging endured a number of crises that inspired a credibility revolution\nAn impressive Pythonic open source ecosystem has emerged in our field\nWe need to be aware of both opportunities and threats to the future of open neuroscience"
+  },
+  {
+    "objectID": "talk.html#section-7",
+    "href": "talk.html#section-7",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Transparency is essential for reproducibility\n\n\n\n\nhttps://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions.html"
+  },
+  {
+    "objectID": "talk.html#voodoo-correlations-and-circularity",
+    "href": "talk.html#voodoo-correlations-and-circularity",
+    "title": "The future of (open) human neuroscience",
+    "section": "2008: Voodoo correlations and circularity",
+    "text": "2008: Voodoo correlations and circularity"
+  },
+  {
+    "objectID": "talk.html#dead-salmon",
+    "href": "talk.html#dead-salmon",
+    "title": "The future of (open) human neuroscience",
+    "section": "2009: dead salmon",
+    "text": "2009: dead salmon"
+  },
+  {
+    "objectID": "talk.html#carp",
+    "href": "talk.html#carp",
+    "title": "The future of (open) human neuroscience",
+    "section": "2012: Carp",
+    "text": "2012: Carp"
+  },
+  {
+    "objectID": "talk.html#narps",
+    "href": "talk.html#narps",
+    "title": "The future of (open) human neuroscience",
+    "section": "2020: NARPS",
+    "text": "2020: NARPS"
+  },
+  {
+    "objectID": "talk.html#clustergate",
+    "href": "talk.html#clustergate",
+    "title": "The future of (open) human neuroscience",
+    "section": "2016: Clustergate",
+    "text": "2016: Clustergate\n\nmention scanning the horizon analysis"
+  },
+  {
+    "objectID": "talk.html#circularity-2.0-machine-learning-edition",
+    "href": "talk.html#circularity-2.0-machine-learning-edition",
+    "title": "The future of (open) human neuroscience",
+    "section": "2022: Circularity 2.0: Machine learning edition",
+    "text": "2022: Circularity 2.0: Machine learning edition"
+  },
+  {
+    "objectID": "talk.html#how-has-the-field-addressed-these-challenges",
+    "href": "talk.html#how-has-the-field-addressed-these-challenges",
+    "title": "The future of (open) human neuroscience",
+    "section": "How has the field addressed these challenges?",
+    "text": "How has the field addressed these challenges?"
+  },
+  {
+    "objectID": "talk.html#developing-an-ecosystem-of-tools-for-open-and-reproducible-neuroscience",
+    "href": "talk.html#developing-an-ecosystem-of-tools-for-open-and-reproducible-neuroscience",
+    "title": "The future of (open) human neuroscience",
+    "section": "Developing an ecosystem of tools for open and reproducible neuroscience",
+    "text": "Developing an ecosystem of tools for open and reproducible neuroscience\n\ndata sharing\nBIDS\nopenneuro\nneurovault"
+  },
+  {
+    "objectID": "talk.html#section-8",
+    "href": "talk.html#section-8",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "“we can distill Claerbout’s insight into a slogan:\nAn article about computational science in a scientific publication is not the scholarship itself, it is merely advertising of the scholarship. The actual scholarship is the complete software development environment and the complete set of instructions which generated the figures..”\n\nBuckheit & Donoho, 1995\n\n\n\n\n\nJon Claerbout"
+  },
+  {
+    "objectID": "talk.html#section-9",
+    "href": "talk.html#section-9",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Neurosynth uses publised coordinates to create meta-analytic maps relating terms (from abstract) to activation\n\n\n\n\n\nYarkoni et al, 2011, Nature Methods"
+  },
+  {
+    "objectID": "talk.html#what-are-the-future-challenges",
+    "href": "talk.html#what-are-the-future-challenges",
+    "title": "The future of (open) human neuroscience",
+    "section": "What are the future challenges?",
+    "text": "What are the future challenges?"
+  },
+  {
+    "objectID": "talk.html#performative-open-science",
+    "href": "talk.html#performative-open-science",
+    "title": "The future of (open) human neuroscience",
+    "section": "Performative open science",
+    "text": "Performative open science\n\n\n\n\nData are often shared badly\n\nOf papers in Psychological Science with an open data badge, only 76% had usable data (Kidwell et al, 2016)\nReported statistics were only reproducible without involvement of the original authors in 36% of papers (Hardwicke et al, 2021)\n\nShared analysis code is rarely usable without substantial modification\n\nCommon problems including missing files and hardcoded paths\n\nGoodhart’s law: “When a measure becomes a target, it ceases to be a good measure.”"
+  },
+  {
+    "objectID": "talk.html#incentives",
+    "href": "talk.html#incentives",
+    "title": "The future of (open) human neuroscience",
+    "section": "incentives",
+    "text": "incentives\n– HELIOS"
+  },
+  {
+    "objectID": "talk.html#data-decay",
+    "href": "talk.html#data-decay",
+    "title": "The future of (open) human neuroscience",
+    "section": "Data decay",
+    "text": "Data decay"
+  },
+  {
+    "objectID": "talk.html#ai",
+    "href": "talk.html#ai",
+    "title": "The future of (open) human neuroscience",
+    "section": "AI",
+    "text": "AI\n– potential positive impacts – potential negative impacts"
+  },
+  {
+    "objectID": "talk.html#section-10",
+    "href": "talk.html#section-10",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Yarkoni et al, 2011, Nature Methods"
+  },
+  {
+    "objectID": "talk.html#section-11",
+    "href": "talk.html#section-11",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Checklist at https://reforms.cs.princeton.edu/"
+  },
+  {
+    "objectID": "talk.html#section-12",
+    "href": "talk.html#section-12",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "http://poldrack.github.io/talks-FutureOpenNeuroscience"
+  },
+  {
+    "objectID": "talk.html#section-13",
+    "href": "talk.html#section-13",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "http://poldrack.github.io/talks-FutureOpenNeuroscience"
+  },
+  {
+    "objectID": "talk.html#section-14",
+    "href": "talk.html#section-14",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "The Poldrack Lab\n\n\n\n\n\nFunding\n\n   \n\n\nOpenNeuro Team\n\n      \n\nCollaborators\n\n   \n\n\n\n\n\nhttp://poldrack.github.io/talks-FutureOpenNeuroscience"
+  },
+  {
+    "objectID": "talk.html#section-15",
+    "href": "talk.html#section-15",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "The Poldrack Lab\n\n\n\n\n\nFunding\n\n   \n\n\nOpenNeuro Team\n\n      \n\nCollaborators\n\n   \n\n\n\n\n\nhttp://poldrack.github.io/talks-FutureOpenNeuroscience"
+  },
+  {
+    "objectID": "talk.html#section-16",
+    "href": "talk.html#section-16",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Simply sharing data is not sufficient - It’s easy to share data badly."
+  },
+  {
+    "objectID": "talk.html#section-17",
+    "href": "talk.html#section-17",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "Simply sharing data is not sufficient - It’s easy to share data badly.\n\n\nData must be shared in a way that makes them useful!"
+  },
+  {
+    "objectID": "talk.html#section-18",
+    "href": "talk.html#section-18",
+    "title": "The future of (open) human neuroscience",
+    "section": "",
+    "text": "The Poldrack Lab\n\n\n\n\n\nFunding\n\n   \n\n\nOpenNeuro Team\n\n      \n\nCollaborators\n\n   \n\n\n\n\n\nhttp://poldrack.github.io/talks-FutureOpenNeuroscience"
+  },
+  {
+    "objectID": "talk.html#my-first-faculty-position-mgh-nmr-center-1999",
+    "href": "talk.html#my-first-faculty-position-mgh-nmr-center-1999",
+    "title": "The future of (open) human neuroscience",
+    "section": "My first faculty position: MGH-NMR Center, 1999",
+    "text": "My first faculty position: MGH-NMR Center, 1999\n\n\n\nMedian sample size for neuroimaging studies in 1999 was N = 8 (David et al.)\n\nPoldrack RA et al. (1998), Cerebral Cortex\n\nN = 6\n\nPoldrack RA et al.(1999), Neuropsychology\n\nN = 8\n\nPoldrack RA et al (1999), NeuroImage\n\nN = 8\n\nKlingberg T, …, Poldrack RA (2000), Neuron\n\nN = 6 poor readers, 11 controls\n\nTemple E, Poldrack RA et al. (2000), PNAS\n\nN = 8 dyslexics, 10 controls"
+  },
+  {
+    "objectID": "talk.html#small-sample-correlations",
+    "href": "talk.html#small-sample-correlations",
+    "title": "The future of (open) human neuroscience",
+    "section": "Small-sample correlations",
+    "text": "Small-sample correlations\n\n\nKlingberg et al, 2000, Neuron"
+  },
+  {
+    "objectID": "talk.html#power-failure",
+    "href": "talk.html#power-failure",
+    "title": "The future of (open) human neuroscience",
+    "section": "2013: Power failure",
+    "text": "2013: Power failure"
+  },
+  {
+    "objectID": "talk.html#small-sample-group-comparisons",
+    "href": "talk.html#small-sample-group-comparisons",
+    "title": "The future of (open) human neuroscience",
+    "section": "Small-sample group comparisons",
+    "text": "Small-sample group comparisons\n\n\n\nTemple, Poldrack et al., 2000, PNAS\n\nN = 8 dyslexics, 10 controls\n“Voxels were considered statistically significant at an uncorrected P &lt; 0.005.”\nFigure caption: “fMRI response to rapid auditory stimuli in normal and dyslexic readers (P &lt; 0.025).”"
+  },
+  {
+    "objectID": "talk.html#voodoo-correlations-in-our-work",
+    "href": "talk.html#voodoo-correlations-in-our-work",
+    "title": "The future of (open) human neuroscience",
+    "section": "Voodoo correlations in our work",
+    "text": "Voodoo correlations in our work\n\n\nTom et al, 2007, Science"
+  },
+  {
+    "objectID": "talk.html#voodoo-correlations-in-our-work-1",
+    "href": "talk.html#voodoo-correlations-in-our-work-1",
+    "title": "The future of (open) human neuroscience",
+    "section": "Voodoo correlations in our work",
+    "text": "Voodoo correlations in our work\n\n\nTom et al, 2007, Science\n\n\n\nPoldrack & Mumford, 2009, SCAN"
+  },
+  {
+    "objectID": "talk.html#the-dead-salmon",
+    "href": "talk.html#the-dead-salmon",
+    "title": "The future of (open) human neuroscience",
+    "section": "2009: The dead salmon",
+    "text": "2009: The dead salmon"
+  },
+  {
+    "objectID": "talk.html#effects-of-analytic-variability",
+    "href": "talk.html#effects-of-analytic-variability",
+    "title": "The future of (open) human neuroscience",
+    "section": "2012: Effects of analytic variability",
+    "text": "2012: Effects of analytic variability"
+  },
+  {
+    "objectID": "talk.html#seeds-of-openness-open-source-software",
+    "href": "talk.html#seeds-of-openness-open-source-software",
+    "title": "The future of (open) human neuroscience",
+    "section": "Seeds of openness: Open source software",
+    "text": "Seeds of openness: Open source software\n\nAll of the major neuroimaging analysis packages are open source\n\nSPM (1991)\n\nEnabled my first open source contribution: the SPM ROI toolbox (2000)\n\nAFNI (1994)\nFreesurfer (1999)\nFSL (2000)"
+  },
+  {
+    "objectID": "talk.html#seeds-of-openness-shared-file-formats",
+    "href": "talk.html#seeds-of-openness-shared-file-formats",
+    "title": "The future of (open) human neuroscience",
+    "section": "Seeds of openness: Shared file formats",
+    "text": "Seeds of openness: Shared file formats\n\n\nCox et al., OHBM, 2004"
+  },
+  {
+    "objectID": "talk.html#decoding-brain-activity-patterns-using-neurosynth",
+    "href": "talk.html#decoding-brain-activity-patterns-using-neurosynth",
+    "title": "The future of (open) human neuroscience",
+    "section": "Decoding brain activity patterns using Neurosynth",
+    "text": "Decoding brain activity patterns using Neurosynth"
+  },
+  {
+    "objectID": "talk.html#example-of-neurosynth-usage",
+    "href": "talk.html#example-of-neurosynth-usage",
+    "title": "The future of (open) human neuroscience",
+    "section": "Example of Neurosynth usage",
+    "text": "Example of Neurosynth usage\n \n\n\n\n\n\n\n\n\nIdentified gradients of functional organization across the cortex\nUsed Neurosynth to identify the most common terms associated with each gradient"
+  },
+  {
+    "objectID": "talk.html#example-of-neurovault-usage",
+    "href": "talk.html#example-of-neurovault-usage",
+    "title": "The future of (open) human neuroscience",
+    "section": "Example of Neurovault usage",
+    "text": "Example of Neurovault usage"
+  },
+  {
+    "objectID": "talk.html#its-easy-to-share-data-badly",
+    "href": "talk.html#its-easy-to-share-data-badly",
+    "title": "The future of (open) human neuroscience",
+    "section": "It’s easy to share data badly",
+    "text": "It’s easy to share data badly\n\n\nData Sharing and Management Snafu in 3 Short Acts\n\n\n\nhttps://www.youtube.com/watch?v=N2zK3sAtr-4\n\n\n\n\n\nI received the data, but when I opened it up it was in hexadecimal\nYes, that is right\nI cannot read hexadecimal\nYou asked for my data and I gave it to you. I have done what you asked.\n\n…\n\nIs there a guide to the data anywhere?\nYes, of course, it is the article that is published in Science."
+  },
+  {
+    "objectID": "talk.html#the-growing-usage-of-bids-an-example",
+    "href": "talk.html#the-growing-usage-of-bids-an-example",
+    "title": "The future of (open) human neuroscience",
+    "section": "The growing usage of BIDS: An example",
+    "text": "The growing usage of BIDS: An example\n\n\n\n\nMRIQC Web API\n\nCrowdsourced database of MR QC metrics\nQC metrics from ~450K unique BOLD scans and ~350K T1w scans as of June 2023\nPublicly available: https://mriqc.nimh.nih.gov/"
+  },
+  {
+    "objectID": "talk.html#the-open-source-pythonic-software-ecosystem-for-open-and-reproducible-neuroscience",
+    "href": "talk.html#the-open-source-pythonic-software-ecosystem-for-open-and-reproducible-neuroscience",
+    "title": "The future of (open) human neuroscience",
+    "section": "The open-source Pythonic software ecosystem for open and reproducible neuroscience",
+    "text": "The open-source Pythonic software ecosystem for open and reproducible neuroscience"
+  },
+  {
+    "objectID": "talk.html#templateflow-fair-sharing-of-neuroimaging-templates-and-atlases",
+    "href": "talk.html#templateflow-fair-sharing-of-neuroimaging-templates-and-atlases",
+    "title": "The future of (open) human neuroscience",
+    "section": "TemplateFlow: FAIR sharing of neuroimaging templates and atlases",
+    "text": "TemplateFlow: FAIR sharing of neuroimaging templates and atlases\n\n\n\nTemplates and atlases are commonly used in neuroimaging research\nThere is significant lack of clarity in the use of these templates\n\nThere are numerous versions of the widely used “MNI template”\n\nTemplateflow provides programmatic access to a database of templates and mappings between them\nEasy to use for humans and machines:\n\n\n\n Ciric et al., 2022, Nature Methods"
+  },
+  {
+    "objectID": "talk.html#sdcflows-susceptibility-distortion-correction-workflows",
+    "href": "talk.html#sdcflows-susceptibility-distortion-correction-workflows",
+    "title": "The future of (open) human neuroscience",
+    "section": "SDCFlows: Susceptibility Distortion Correction workflows",
+    "text": "SDCFlows: Susceptibility Distortion Correction workflows\n\n\n\nSDCflows aims to provide a unified interface to susceptibility distortion correction methods\n\nDefines a shared representation model (B-Spline) for the field map\n“decouples” estimation and application steps (increasing modularity)\n\nOverhaul started early 2021 (Esteban et al., OHBM 2021)\n\nFaced many technical challenges\n\nRequiring numerous bugfixes and “edge” cases\n\nDeveloped new educational materials & Jupyter notebooks"
+  },
+  {
+    "objectID": "talk.html#developing-a-pythonic-ecosystem-of-tools-for-open-and-reproducible-neuroscience",
+    "href": "talk.html#developing-a-pythonic-ecosystem-of-tools-for-open-and-reproducible-neuroscience",
+    "title": "The future of (open) human neuroscience",
+    "section": "Developing a Pythonic ecosystem of tools for open and reproducible neuroscience",
+    "text": "Developing a Pythonic ecosystem of tools for open and reproducible neuroscience\n\ndata sharing\nBIDS\nopenneuro\nneurovault"
+  },
+  {
+    "objectID": "talk.html#seeds-of-openness-a-common-file-format",
+    "href": "talk.html#seeds-of-openness-a-common-file-format",
+    "title": "The future of (open) human neuroscience",
+    "section": "Seeds of openness: A common file format",
+    "text": "Seeds of openness: A common file format\n\n\nCox et al., OHBM, 2004"
+  },
+  {
+    "objectID": "talk.html#the-open-source-pythonic-software-ecosystem",
+    "href": "talk.html#the-open-source-pythonic-software-ecosystem",
+    "title": "The future of (open) human neuroscience",
+    "section": "The open-source Pythonic software ecosystem",
+    "text": "The open-source Pythonic software ecosystem"
+  },
+  {
+    "objectID": "talk.html#best-practices-for-reporting-and-analysis",
+    "href": "talk.html#best-practices-for-reporting-and-analysis",
+    "title": "The future of (open) human neuroscience",
+    "section": "Best practices for reporting and analysis",
+    "text": "Best practices for reporting and analysis"
+  },
+  {
+    "objectID": "talk.html#the-future-of-open-neuroimaging",
+    "href": "talk.html#the-future-of-open-neuroimaging",
+    "title": "The future of (open) human neuroscience",
+    "section": "The future of open neuroimaging",
+    "text": "The future of open neuroimaging"
+  },
+  {
+    "objectID": "talk.html#an-open-source-pythonic-software-ecosystem",
+    "href": "talk.html#an-open-source-pythonic-software-ecosystem",
+    "title": "The future of (open) human neuroscience",
+    "section": "An open-source Pythonic software ecosystem",
+    "text": "An open-source Pythonic software ecosystem"
+  },
+  {
+    "objectID": "talk.html#threats-to-open-neuroscience",
+    "href": "talk.html#threats-to-open-neuroscience",
+    "title": "The future of (open) human neuroscience",
+    "section": "Threats to open neuroscience",
+    "text": "Threats to open neuroscience\n\n\nOpen science has gained a strong foothold in neuroimaging\nBut there are a number of threats to its success"
+  },
+  {
+    "objectID": "talk.html#incentives-for-open-science",
+    "href": "talk.html#incentives-for-open-science",
+    "title": "The future of (open) human neuroscience",
+    "section": "Incentives for open science",
+    "text": "Incentives for open science\n\n\n\nCurrent incentive structures incentivize irreproducible practices\n\nPublication in high-profile journals\nData hoarding\n\nIn the US, a large group of universities is working together to change this\n\nHigher Education Leadership Initiative for Open Scholarship (HELIOS)\nWorking to reform hiring, tenure, and promotion practices to reflect the importance of open scholarship"
+  },
+  {
+    "objectID": "talk.html#dataset-decay",
+    "href": "talk.html#dataset-decay",
+    "title": "The future of (open) human neuroscience",
+    "section": "Dataset decay",
+    "text": "Dataset decay"
+  },
+  {
+    "objectID": "talk.html#dataset-decay-example",
+    "href": "talk.html#dataset-decay-example",
+    "title": "The future of (open) human neuroscience",
+    "section": "Dataset decay example",
+    "text": "Dataset decay example\n\n\n\n\n182 behavioral measures and 68 cortical thickness measures (12,376 total tests)\nCorrecting for all tests simultaneously controls false positive/discovery rate\nIf each behavioral measure was tested by a different researcher in a different paper (correcting only for the 68 thickness measures), then the false positive rate is highly inflated\n\n\n\n\n\n\nThompson et al, 2020"
+  },
+  {
+    "objectID": "talk.html#ai-positive-impacts",
+    "href": "talk.html#ai-positive-impacts",
+    "title": "The future of (open) human neuroscience",
+    "section": "AI: Positive impacts",
+    "text": "AI: Positive impacts\n\n\n\nFoundation models can improve decoding from small samples\n\n\nThomas et al., NeurIPS 2022"
+  },
+  {
+    "objectID": "talk.html#ai-negative-impacts",
+    "href": "talk.html#ai-negative-impacts",
+    "title": "The future of (open) human neuroscience",
+    "section": "AI: Negative impacts",
+    "text": "AI: Negative impacts\n\n\nUsed recklessly, machine learning methods can easily go wrong\n\n\n\n\n“We surveyed a variety of research that uses ML and found that data leakage affects at least 294 studies across 17 fields, leading to overoptimistic findings.”"
+  },
+  {
+    "objectID": "talk.html#ai-negative-impacts-1",
+    "href": "talk.html#ai-negative-impacts-1",
+    "title": "The future of (open) human neuroscience",
+    "section": "AI: Negative impacts",
+    "text": "AI: Negative impacts\n\n\n\n\nAI face recognition models could defeat current deidentification methods\n\n“For 70 of the 84 participants (83%), the software chose the correct MRI scan as the most likely match for their photos. The correct MRI scan was among the top five choices for 80 of 84 participants (95%).” (Schwartz et al., 2019)"
+  },
+  {
+    "objectID": "talk.html#low-power---unreliable-science",
+    "href": "talk.html#low-power---unreliable-science",
+    "title": "The future of (open) human neuroscience",
+    "section": "Low power -> unreliable science",
+    "text": "Low power -&gt; unreliable science\n\n\nPositive Predictive Value (PPV): The probability that a positive result is true\n\nWinner’s Curse: overestimation of effect sizes for significant results\n\n\n\n\n\n\nButton et al, 2013"
+  },
+  {
+    "objectID": "talk.html#small-samples-high-instability-of-statistical-estimates",
+    "href": "talk.html#small-samples-high-instability-of-statistical-estimates",
+    "title": "The future of (open) human neuroscience",
+    "section": "Small samples = high instability of statistical estimates",
+    "text": "Small samples = high instability of statistical estimates\n\n\nSchonbrodt & Perugini, 2013"
+  },
+  {
+    "objectID": "talk.html#what-is-the-effect-of-analytic-variability-on-outcomes",
+    "href": "talk.html#what-is-the-effect-of-analytic-variability-on-outcomes",
+    "title": "The future of (open) human neuroscience",
+    "section": "What is the effect of analytic variability on outcomes?",
+    "text": "What is the effect of analytic variability on outcomes?\n\n\n\nAcross teams there were 33 different patterns of outcomes\nFor any hypothesis, there are at least 4 workflows that can give a positive result\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#what-is-the-effect-of-analytic-variability-in-the-wild",
+    "href": "talk.html#what-is-the-effect-of-analytic-variability-in-the-wild",
+    "title": "The future of (open) human neuroscience",
+    "section": "What is the effect of analytic variability in the wild?",
+    "text": "What is the effect of analytic variability in the wild?\n\n\n\n\n70 teams tested 9 hypotheses using the same dataset\nNo 2 team used the same workflow\nAcross teams there were 33 different patterns of outcomes\nFor any hypothesis, there are at least 4 workflows that can give a positive result\n\n\n\n\nBotvinik-Nezer et al., 2020, Nature"
+  },
+  {
+    "objectID": "talk.html#seeds-of-openness-fmri-data-sharing",
+    "href": "talk.html#seeds-of-openness-fmri-data-sharing",
+    "title": "The future of (open) human neuroscience",
+    "section": "Seeds of openness: fMRI data sharing",
+    "text": "Seeds of openness: fMRI data sharing"
   }
 ]

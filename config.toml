@@ -1,3 +1,6 @@
-title = "A blank template for a talk"
-tag = "Topic_Venue_month_day_year"
+title = "The future of (open) human neuroscience"
+tag = "FutureOpenNeuro_Cogbases_10_11_2023"
 base_url = "http://poldrack.github.io"
+remote = "git@github.com:poldrack/talks-FutureOpenNeuroscience.git"
+talk_url = "http://poldrack.github.io/talks-FutureOpenNeuroscience/talk/talk.html"
+repo_url = "http://poldrack.github.io/talks-FutureOpenNeuroscience"
